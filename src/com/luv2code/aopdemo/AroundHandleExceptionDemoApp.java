@@ -22,7 +22,7 @@ public class AroundHandleExceptionDemoApp {
 
 		myLogger.info("Calling getFortune");
 
-		boolean tripWire = true;
+		boolean tripWire = false;
 		String data = theFortuneService.getFortune(tripWire);
 
 		myLogger.info("\nMy fortune is: " + data);
